@@ -31,7 +31,7 @@ function Modal({ onClose }) {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/referrals",
+        "https://accerdian-backend-o2qi.onrender.com/api/referrals",
         requestBody
       );
 
